@@ -19,3 +19,6 @@ Questions théoriques :
     => la mise en place d'une pagination si le nombre de résultat affiché est trop nombreux 
     => et l'optimisation de la tailles des images récupérés
 2. Comment aborderiez-vous le fait de rendre scalable le script (plusieurs milliers de sources et images)
+    => je pense qu'on est sur des problématique de DevOps. 
+        la gestion des filles d'attentes pour gerer les appels d'API et les demandes de traitement des flus RSS
+        si plusieurs API faire des micro service pour eviter de solicité toutes les API a la fois
